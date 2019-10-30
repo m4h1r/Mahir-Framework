@@ -4,7 +4,11 @@
 body {
     font-family: "Verdana";
 }
-
+.gölge {
+    -webkit-box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.49);
+    box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.49);
+}
 
 /* -Arka Plan Renkleri---------------------------*/
 .ap-renk-siyah {background-color: black;}
@@ -18,7 +22,7 @@ body {
 .ap-renk-turkuaz {background-color: cyan;}
 .ap-renk-pembe {background-color: pink;}
 .ap-renk-mor {background-color: purple;}
-/* -Arka Plan Renkleri---------------------------*/
+/* -Genel Kolon Yapısı---------------------------*/
 .kolon{width:auto; margin:1px; padding:3px; border-radius:4px;}
 .kolon-1{width:10%; margin:1px; padding:3px; border-radius:4px;}
 .kolon-2{width:20%; margin:1px; padding:3px; border-radius:4px;}
