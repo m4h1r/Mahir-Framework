@@ -19,17 +19,17 @@ body {
 .ap-renk-pembe {background-color: pink;}
 .ap-renk-mor {background-color: purple;}
 /* -Arka Plan Renkleri---------------------------*/
-.kolon{width:auto}
-.kolon-1{width:10%}
-.kolon-2{width:20%}
-.kolon-3{width:30%}
-.kolon-4{width:40%}
-.kolon-5{width:50%}
-.kolon-6{width:60%}
-.kolon-7{width:70%}
-.kolon-8{width:80%}
-.kolon-9{width:90%}
-.kolon-10{width:100%}
+.kolon{width:auto; margin:1px; padding:3px; border-radius:4px;}
+.kolon-1{width:10%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-2{width:20%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-3{width:30%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-4{width:40%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-5{width:50%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-6{width:60%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-7{width:70%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-8{width:80%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-9{width:90%; margin:1px; padding:3px; border-radius:4px;}
+.kolon-10{width:100%; margin:1px; padding:3px; border-radius:4px;}
 
 /* Mobil*/
 @media only screen and (max-width: 600px) {
