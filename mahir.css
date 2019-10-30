@@ -1,0 +1,99 @@
+/*********** GENEL BİÇİMLENDİRMELER ***********/
+
+/* -Temel Etiketler---------------------------*/
+body {
+    font-family: "Verdana";
+}
+
+
+/* -Arka Plan Renkleri---------------------------*/
+.ap-renk-siyah {background-color: black;}
+.ap-renk-beyaz {background-color: white;}
+.ap-renk-gri {background-color: gray;}
+.ap-renk-kırmızı {background-color: red;}
+.ap-renk-mavi {background-color: blue;}
+.ap-renk-yeşil {background-color: green;}
+.ap-renk-sarı {background-color: yellow;}
+.ap-renk-turuncu {background-color: orangered;}
+.ap-renk-turkuaz {background-color: cyan;}
+.ap-renk-pembe {background-color: pink;}
+.ap-renk-mor {background-color: purple;}
+/* -Arka Plan Renkleri---------------------------*/
+.kolon{width:auto}
+.kolon-1{width:10%}
+.kolon-2{width:20%}
+.kolon-3{width:30%}
+.kolon-4{width:40%}
+.kolon-5{width:50%}
+.kolon-6{width:60%}
+.kolon-7{width:70%}
+.kolon-8{width:80%}
+.kolon-9{width:90%}
+.kolon-10{width:100%}
+
+/* Mobil*/
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 0.8em;
+        text-indent: 5%;
+    }
+    h1 {font-size: 1.6em;}
+    h2 {font-size: 1.6em;}
+    h3 {font-size: 1.6em;}
+    h4 {font-size: 1.6em;}
+    h5 {font-size: 1.6em;}
+    h6 {font-size: 1.6em;}
+    .kabin {
+        width: auto;
+        height: auto;
+        margin:1px;
+        padding: 4px;
+        border-radius: 4px;
+    }
+    
+}
+
+
+/* Tablet*/
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    p {
+        font-size: 0.9em;
+        text-indent: 5%;
+    }
+    h1 {font-size: 1.8em;}
+    h2 {font-size: 1.8em;}
+    h3 {font-size: 1.8em;}
+    h4 {font-size: 1.8em;}
+    h5 {font-size: 1.8em;}
+    h6 {font-size: 1.8em;}
+    .kabin {
+        width: auto;
+        height: auto;
+        margin:2px;
+        padding: 6px;
+        border-radius: 6px;
+    }
+    
+}
+
+/* Bilgisayar*/
+@media only screen and (min-width: 1000px) {
+    p {
+        font-size: 1em;
+        text-indent: 5%;
+    }
+    h1 {font-size: 2em;}
+    h2 {font-size: 2em;}
+    h3 {font-size: 2em;}
+    h4 {font-size: 2em;}
+    h5 {font-size: 2em;}
+    h6 {font-size: 2em;}
+    .kabin {
+        width: auto;
+        height: auto;
+        margin:3px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    
+}
