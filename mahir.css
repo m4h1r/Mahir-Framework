@@ -23,17 +23,19 @@ body {
 .ap-renk-pembe {background-color: pink;}
 .ap-renk-mor {background-color: purple;}
 /* -Genel Kolon Yapısı---------------------------*/
-.kolon{width:auto; margin:1px; padding:3px; border-radius:4px;}
-.kolon-1{width:10%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-2{width:20%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-3{width:30%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-4{width:40%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-5{width:50%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-6{width:60%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-7{width:70%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-8{width:80%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-9{width:90%; margin:1px; padding:3px; border-radius:4px;}
-.kolon-10{width:100%; margin:1px; padding:3px; border-radius:4px;}
+.kolon{width:auto; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-1{width:auto; max-width:8.33%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-2{width:16.66%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-3{width:25%; margin:0px; padding:3px; border-radius:4px; float: left;}
+.kolon-4{width:auto; max-width:33%; margin:0.16%; padding:3px; border-radius:4px; float: left;}
+.kolon-5{width:41.66%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-6{width:50%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-7{width:58.33%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-8{width:66.33%; margin:0.16%; padding:3px; border-radius:4px; float: left;}
+.kolon-9{width:75%; margin:0px; padding:3px; border-radius:4px; float: left;}
+.kolon-10{width:83.33%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-11{width:91.66%; margin:1px; padding:3px; border-radius:4px; float: left;}
+.kolon-12{width:100%; margin:1px; padding:3px; border-radius:4px; float: left;}
 
 /* Mobil*/
 @media only screen and (max-width: 600px) {
@@ -53,6 +55,10 @@ body {
         margin:1px;
         padding: 4px;
         border-radius: 4px;
+        float: left;
+    }
+    .metin-ortala {
+        text-align: center;
     }
     
 }
@@ -95,7 +101,7 @@ body {
     .kabin {
         width: auto;
         height: auto;
-        margin:3px;
+        margin:0px;
         padding: 8px;
         border-radius: 8px;
     }
